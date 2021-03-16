@@ -1,0 +1,186 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+html{
+  color: #333;
+  font-family:"Josefin Sans";
+  line-height: 1.5;
+  background: white;
+  max-width: 1000px;
+  min-width: 800px;
+}
+body{
+  padding: 2.5rem 3rem;
+  background: linear-gradient(#888, salmon);
+  
+   
+ }
+
+
+h1{
+
+  font-size:2rem;
+  text-transform:uppercase;
+    letter-spacing: 5px;
+}
+
+h2{
+  letter-spacing: 5px;
+  font-size:1.1rem;
+  text-transform: uppercase;
+  text-align:center;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  padding-top:1rem;
+  
+}
+
+h3{
+  letter-spacing: 2px;
+  font-size:1rem;
+  text-transform: uppercase;
+  color: salmon;
+
+}
+
+p{
+  line-height: 1.5;
+}
+
+section + section{
+  margin-top: 4rem;
+  
+}
+
+li + li{
+  margin-top: 0.5rem; 
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+ 
+}
+
+ul{
+  list-style: none;
+}
+
+.profile{
+  text-align:center;
+
+ 
+}
+
+.skills{
+  text-align:center;
+}
+.socials{
+  text-align:center;
+  background-color:white;
+}
+.profile img {
+   border-radius: 9999px;
+  width: 15rem;
+  height: 15rem;
+}
+
+.profile p{
+  color:  #989898;	
+  margin-bottom: 1rem;
+  font-size:1.15rem;
+  
+}
+.contact ul{
+  margin-top: -2rem;
+}
+
+.contact li{
+  text-align:center;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border-bottom: 1px solid #D0D0D0;
+   color: 	#585858;
+  
+}
+
+.skills > ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.timeline .event {
+  padding-top: 1rem;
+  
+}
+
+.timeline .event{
+  display: grid;
+  grid-template-columns: 5ch 1fr;
+
+ }
+
+.timeline .content{
+  border-left: 1px solid #D0D0D0;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.content > p {
+  margin-bottom: 1rem;
+}
+
+.resume{
+  display: grid;
+  grid-template-columns:40% 1fr;
+  grid-gap: 3rem;
+   background-color: white;
+  padding: 1rem;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+
+
+.interests{
+  padding-top: 1rem;
+}
+
+.contact li:hover{
+  color:salmon;
+  font-size: 15px;
+  
+}
+
+
+
+.fab{
+  color: #585858;
+  font-size: 17px;
+  
+  align: center;
+  
+  
+}
+
+.fas{
+  color: #585858;
+  font-size: 16px;
+}
+
+.experience{
+  padding-top:1rem;
+}
+
+.profile{
+  align: center;
+  background-color: white;
+}
