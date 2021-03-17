@@ -25,6 +25,7 @@ h1{
   font-size:2rem;
   text-transform:uppercase;
     letter-spacing: 5px;
+    text-shadow: 1px 1px 3px #888;
 }
 
 h2{
@@ -37,6 +38,7 @@ h2{
   padding: 1rem 0;
   margin-bottom: 2rem;
   padding-top:1rem;
+  text-shadow: 1px 1px 3px #888;
   
 }
 
@@ -45,6 +47,7 @@ h3{
   font-size:1rem;
   text-transform: uppercase;
   color: salmon;
+   text-shadow: 1px 1px 3px #888;
 
 }
 
@@ -185,3 +188,12 @@ ul{
   align: center;
 
 }
+
+.objectives p{
+  text-align: justify;
+}
+
+.experience p{
+  text-align: justify;
+}
+
