@@ -165,6 +165,12 @@ ul{
 }
 
 
+.certifications p:hover{
+  color:salmon;
+  font-size: 15px;
+}
+
+
 
 .fab{
   color: #585858;
